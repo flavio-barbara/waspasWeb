@@ -1,0 +1,13 @@
+name: waspasWeb
+title: waspasWeb
+username:
+account: flaviob
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8503761
+bundleId: 6926984
+url: https://flaviob.shinyapps.io/waspasWeb/
+when: 1678210921.99931
+lastSyncTime: 1678210921.99933
+asMultiple: FALSE
+asStatic: FALSE
