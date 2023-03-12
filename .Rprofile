@@ -1,4 +1,4 @@
-source("renv/activate.R")
+# source("renv/activate.R")
 local({
   r <- getOption("repos")
   r["CRAN"] <- "https://cran.rstudio.com/"
