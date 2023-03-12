@@ -30,26 +30,31 @@ ui <- fluidPage(
           HTML("Database Template: <a href =
                'https://flaviob.shinyapps.io/waspasWeb/WASPAS_Data_Template.xlsx'>
                WASPAS_Data_Template.xlsx</a>"),
-          HTML("waspasR Package: <a href =
-               'https://flaviob.shinyapps.io/waspasWeb/waspasR_0.1.0.tar.gz'>
+          p(),
+          HTML("waspasR Pack from CRAN: <a href =
+               'https://cran.r-project.org/bin/windows/contrib/4.3/waspasR_0.1.0.zip'>
                waspasR_0.1.0.tar.gz</a>"),
-          hr(),
-          HTML('Contact: <a href =
-               "mailto:flavio.barbara@gmail.com">flavio.barbara@gmail.com</a>'),
-          hr(),
-      h5("Todos os direitos reservados. O uso não comercial (acadêmico) desta
-         planilha é gratuito. A única coisa que se pede em troca é citar esta
-         ferramenta quando os resultados forem utilizados em publicações"),
-      em("Para citar a fonte: Barbara, Flavio; SANTOS, Marcos dos.
-                                  WASPAS in R (v.1) 2023."),
-      hr(),
-      fluidRow(
-        column(10, align="center",
-               tags$img(height = 124, width = 90, src = "foto.jpeg"),
-               tags$img(height = 124, width = 90, src = "orientador.jpeg")
-        )
-      ),
-    )),
+          p(),
+          HTML("waspasR Source from GitHub: <a href =
+               'https://github.com/flavio-barbara/waspasR/archive/refs/heads/master.zip'>
+               master.zip</a>"),
+          p(),
+          h5("Todos os direitos reservados. O uso não comercial (acadêmico) desta
+             planilha é gratuito. A única coisa que se pede em troca é citar esta
+             ferramenta quando os resultados forem utilizados em publicações"),
+          HTML("Para citar a fonte: <em>Barbara, Flavio; SANTOS, Marcos dos.
+                                  WASPAS in R (v.1) 2023.</em>"),
+          p(),
+          fluidRow(
+            column(10, align="center",
+                   tags$img(height = 124, width = 90, src = "foto.jpeg"),
+                   tags$img(height = 124, width = 90, src = "orientador.jpeg"))
+          ),
+          HTML("Contact: <a href =
+               'mailto:flavio.barbara@gmail.com'>flavio.barbara@gmail.com</a>"),
+
+      )
+    ),
     # Main panel
     mainPanel(
       tabsetPanel(
