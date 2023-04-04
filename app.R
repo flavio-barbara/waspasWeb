@@ -27,6 +27,10 @@ ui <- fluidPage(
           hard work for you."),
           hr(),
           h4("Please, use the links below to Download:"),
+          HTML("User Manual (Portuguese): <a href =
+               'Manual waspasWEB.pdf'>
+               waspasWEB Manual</a>"),
+          p(),
           HTML("Database Template: <a href =
                'https://flaviob.shinyapps.io/waspasWeb/WASPAS_Data_Template.xlsx'>
                WASPAS_Data_Template.xlsx</a>"),
@@ -39,11 +43,17 @@ ui <- fluidPage(
                'https://github.com/flavio-barbara/waspasR/archive/refs/heads/master.zip'>
                master.zip</a>"),
           p(),
-          h5("Todos os direitos reservados. O uso não comercial (acadêmico) desta
-             planilha é gratuito. A única coisa que se pede em troca é citar esta
-             ferramenta quando os resultados forem utilizados em publicações"),
-          HTML("Para citar a fonte: <em>Barbara, Flavio; SANTOS, Marcos dos.
-                                  WASPAS in R (v.1) 2023.</em>"),
+          h5("All rights reserved. Non-commercial (academic) use of the resources
+          available on this page is free of charge. The only thing asked in return
+          is to cite this tool when the results are used in publications."),
+          HTML("Cite the source as: <em>Barbara, Flavio; SANTOS, Marcos dos.
+               WASPAS in R (v.1) 2023.</em>"),
+          # h5("Todos os direitos reservados. O uso não comercial (acadêmico) dos
+          #    recursos disponíveis nessa página é gratuito. A única coisa que se
+          #    pede em troca é citar esta ferramenta quando os resultados forem
+          #    utilizados em publicações"),
+          # HTML("Para citar a fonte: <em>Barbara, Flavio; SANTOS, Marcos dos.
+          #                         WASPAS in R (v.1) 2023.</em>"),
           p(),
           fluidRow(
             column(10, align="center",
