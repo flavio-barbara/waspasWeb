@@ -5,9 +5,9 @@ account: flaviob
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8503761
-bundleId: 6948117
+bundleId: 7047158
 url: https://flaviob.shinyapps.io/waspasWeb/
-when: 1678620998.4598
-lastSyncTime: 1678620998.45981
+when: 1680603436.07541
+lastSyncTime: 1680603436.07542
 asMultiple: FALSE
 asStatic: FALSE
