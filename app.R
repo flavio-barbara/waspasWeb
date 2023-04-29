@@ -27,9 +27,12 @@ ui <- fluidPage(
           hard work for you."),
           hr(),
           h4("Please, use the links below to Download:"),
-          HTML("User Manual (Portuguese): <a href =
-               'Manual waspasWEB.pdf'>
-               waspasWEB Manual</a>"),
+          HTML("User's Manual: <a href =
+               'Manual waspasWEB PT.pdf'>
+               Portuguese</a>","|",
+               "<a href =
+                 'Manual waspasWEB EN.pdf'>
+                 English</a>"),
           p(),
           HTML("Database Template: <a href =
                'https://flaviob.shinyapps.io/waspasWeb/WASPAS_Data_Template.xlsx'>
@@ -57,8 +60,8 @@ ui <- fluidPage(
           p(),
           fluidRow(
             column(10, align="center",
-                   tags$img(height = 124, width = 90, src = "foto.jpeg"),
-                   tags$img(height = 124, width = 90, src = "orientador.jpeg"))
+                   tags$img(height = 124, width = 90, src = "flavio.jpg"),
+                   tags$img(height = 124, width = 90, src = "marcos.jpeg"))
           ),
           HTML("Contact: <a href =
                'mailto:flavio.barbara@gmail.com'>flavio.barbara@gmail.com</a>"),
@@ -93,7 +96,7 @@ ui <- fluidPage(
                              value = 0.5),
                  tableOutput("waspas")
         ),
-        tabPanel("Radar Graph",
+        tabPanel("Radar Chart",
                  sliderInput(inputId = "lambdaR",
                              label = "Define the lambda Value:",
                              min = 0,
