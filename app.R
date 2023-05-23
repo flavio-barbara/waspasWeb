@@ -175,8 +175,8 @@ server <- function(input, output, session) {
         waspas <- applyLambda(wsm, wpm, val)
       }
       waspas <- waspas[order(waspas$WASPAS_Rank, decreasing = TRUE),]
-      if (nrow(waspas) > 100) {
-        waspas <- waspas[1:100,]
+      if (nrow(waspas) > 20) {
+        waspas <- waspas[1:20,]
       }
       global_control_flag <<- "already have waspas"
       global_waspas <<- waspas
