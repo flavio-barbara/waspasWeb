@@ -38,9 +38,9 @@ ui <- fluidPage(
                'https://flaviob.shinyapps.io/waspasWeb/WASPAS_Data_Template.xlsx'>
                WASPAS_Data_Template.xlsx</a>"),
           p(),
-          HTML("waspasR Pack from CRAN: <a href =
+          HTML("CRAN Package: <a href =
                'https://CRAN.R-project.org/package=waspasR'>
-               waspasR_0.1.0.tar.gz</a>"),
+               Go to waspasR on CRAN</a>"),
           p(),
           HTML("waspasR Source from GitHub: <a href =
                'https://github.com/flavio-barbara/waspasR/archive/refs/heads/master.zip'>
