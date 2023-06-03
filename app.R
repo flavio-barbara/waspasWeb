@@ -39,7 +39,7 @@ ui <- fluidPage(
                WASPAS_Data_Template.xlsx</a>"),
           p(),
           HTML("waspasR Pack from CRAN: <a href =
-               'https://cran.r-project.org/bin/windows/contrib/4.3/waspasR_0.1.1.zip'>
+               'https://CRAN.R-project.org/package=waspasR'>
                waspasR_0.1.0.tar.gz</a>"),
           p(),
           HTML("waspasR Source from GitHub: <a href =
