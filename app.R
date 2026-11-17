@@ -27,19 +27,14 @@ ui <- fluidPage(
           hard work for you."),
           hr(),
           h4("Please, use the links below to Download:"),
-          HTML("User's Manual: <a href =
-               'Manual waspasWEB PT.pdf'>
-               Portuguese</a>","|",
-               "<a href =
-                 'Manual waspasWEB EN.pdf'>
-                 English</a>"),
+          HTML("User's Manual: <a href ='Manual waspasWEB PT.pdf' target='_blank' rel='noopener noreferrer'>Portuguese</a>",
+                          "|","<a href ='Manual waspasWEB EN.pdf' target='_blank' rel='noopener noreferrer'>English</a>"),
           p(),
           HTML("Database Template: <a href =
                'https://flaviob.shinyapps.io/waspasWeb/WASPAS_Data_Template.xlsx'>
                WASPAS_Data_Template.xlsx</a>"),
           p(),
-          HTML("CRAN Package: <a href =
-               'https://CRAN.R-project.org/package=waspasR'>
+          HTML("CRAN Package: <a href='https://CRAN.R-project.org/package=waspasR' target='_blank' rel='noopener noreferrer'>
                Go to waspasR on CRAN</a>"),
           p(),
           HTML("waspasR Source from GitHub: <a href =
